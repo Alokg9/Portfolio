@@ -50,14 +50,14 @@ const Date = styled.div`
     font-size: 10px;
   }
 `;
-// const Grade = styled.div`
-//   font-size: 14px;
-//   font-weight: 500;
-//   color: ${({ theme }) => theme.text_secondary + 99};
-//   @media only screen and (max-width: 768px) {
-//     font-size: 12px;
-//   }
-// `;
+const Grade = styled.div`
+  font-size: 14px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_secondary + 99};
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+`;
 
 const Description = styled.div`
   width: 100%;
@@ -73,12 +73,12 @@ const Span = styled.div`
   display: -webkit-box;
   max-width: 100%;
 `;
-const Skills = styled.div`
-  width: 100%;
-  display: flex;
-  gap: 12px;
-  margin-top: -10px;
-`;
+// const Skills = styled.div`
+//   width: 100%;
+//   display: flex;
+//   gap: 12px;
+//   margin-top: -10px;
+// `;
 const Skill = styled.div`
   font-size: 15px;
   font-weight: 400;
